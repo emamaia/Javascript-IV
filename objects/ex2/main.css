@@ -3,7 +3,7 @@
   width: 100px;
   height: 100px;
 }
-.avatar {
+.card {
   width: 20%;
   display: inline-block;
   text-align: center;
@@ -11,4 +11,8 @@
 
 .green {
   background-color: green
+}
+
+.purple{
+  background-color: purple;
 }

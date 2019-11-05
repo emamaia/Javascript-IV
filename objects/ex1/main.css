@@ -17,3 +17,13 @@ button.pequeno{
   background-color: green;
   border-radius: 5px;
 }
+
+.azul {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.medio{
+  padding: 20px 40px;
+  font-size: 20px;
+}
