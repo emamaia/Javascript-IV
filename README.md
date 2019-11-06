@@ -13,6 +13,12 @@ Nessa aula vimos:
 * [Exercícios](#exercicios)
 * [Conteúdo para estudo](#conteúdo-para-estudo)
 
+### [Aula 2](#aula-2)
+#### Resumo
+Nessa aula vimos:
+* [Object](#object)
+* [Exercícios 2](#exercicios-2)
+
 ## Aula 1
 #### Git flow
 É um dos modelos existentes para organizar branches.
@@ -44,7 +50,7 @@ git remote -v
 
 Caso queira mudar o repositorio de algum dos remotes é só fazer
 ```
-git ${nome dado ao remote} set-url origin ${url de clone}
+git remote set-url ${nome dado ao remote} ${url de clone}
 ```
 No nosso caso os valores aceitos para ${nome dado ao remote} são `origin` e `upstream` 
 
