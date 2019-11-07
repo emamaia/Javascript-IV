@@ -20,7 +20,7 @@ selecionaCartaAleatoria = cartas =>{
 //         renderizaCard(selecionaCartaAleatoria(json))
 // })
       
-async function pegarCarta(){
+async function carregaCarta(){
     const response = await fetch ('tarot.json')
     const json = await response.json()
     // console.log(response);
@@ -30,6 +30,6 @@ async function pegarCarta(){
 
 
 novaCarta=() =>{
-    pegarCarta()
+    carregaCarta()
 
 }
